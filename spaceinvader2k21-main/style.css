@@ -1,0 +1,91 @@
+
+@font-face {
+    font-family: Font;
+    src: url("font.TTF");
+}
+.navbar{
+    display: flex;
+    background-color: rgb(19, 19, 19);
+    width: 100%;
+    justify-content: center;
+    border: 2px #73F340 solid;
+    margin: 0 0 20px 0;
+    font-family: Font;
+    z-index: 2;
+}
+body {
+    background-color: rgb(24, 24, 24);
+    overflow: hidden;
+}
+.text{
+    color: #73F340;
+}
+.score {
+    color: white;
+    opacity: 0.7;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 10px 10px 100px;
+    margin: 0;
+}
+/* affichage du jeu */
+
+
+.player img{
+    max-width: 100%;
+    height: 30px;
+    margin: 30px;
+}
+
+.vie{
+    width: 650px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.vie img{
+    height: 35px;
+}
+.gameover {
+    position: fixed;
+    text-align: center;
+    top: 30%;
+    left: 35%;
+    height: 200px;
+    width: 350px;
+    padding: 50px;
+    color: white;
+    font-family: Font;
+    font-size: 60px;
+    background: black;
+    z-index: 1;
+    opacity: 0.8;
+}
+#restart {
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+#restart:visited {
+    color: white;
+}
+#restart:hover {
+    transition: 0.2s;
+    color: #73F340;
+}
+.win {
+    position: fixed;
+    text-align: center;
+    top: 30%;
+    left: 35%;
+    height: 200px;
+    width: 350px;
+    padding: 50px;
+    color: white;
+    font-family: Font;
+    font-size: 60px;
+    background: black;
+    z-index: 1;
+    opacity: 0.8;
+}
